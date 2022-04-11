@@ -3,7 +3,7 @@ var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 const { ObjectID } = require('bson');
 var ObjectId = require('mongodb').ObjectID;
-var url = 'mongodb://thisiscosmos:DryoYJkDRnCd4UMM4BbQt1N8C6dKRD79AFiMxwHtVeuYLO5Q4Ef2Iz9VjCWXABzzAHkPD7EjyERlv3sYdaXWcg==@thisiscosmos.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@thisiscosmos@';
+var url = <PRIMARY CONNECTION STRING>;
 
 
 const app = express()
